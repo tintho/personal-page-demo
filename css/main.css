@@ -33,10 +33,12 @@ header a:focus {
 
 #about {
 	background-color: #F3A91C;
+	overflow: auto;
 }
 
 #education {
 	background-color: #F0F2BE ;
+	clear: both;
 }
 
 #projects {
