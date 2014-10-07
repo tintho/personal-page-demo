@@ -10,12 +10,14 @@ header, section, footer {
 	padding: 1em;
 }
 
-header {
+header, footer {
 	background-image: url(../img/background.jpg);
 	background-size: cover;
 	color: #FFFFFF;
 }
 
+footer a:link,
+footer a:visited,
 header a:link,
 header a:visited {
 	color: #EED234;
@@ -26,6 +28,8 @@ header a:visited {
 	padding-bottom: 0.5em;
 }
 
+footer a:hover,
+footer a:focus,
 header a:hover,
 header a:focus {
 	background-color: #EE0000;
